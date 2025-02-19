@@ -1,0 +1,10 @@
+header {
+    background-color: aquamarine; /* cor de fundo do cabeçalho */
+    text-align: center; /*alinhamento do texto*/
+    color: blueviolet; /* cor da letra */
+    padding: 25px; /* tamanho/preenchimento do cabeçalho*/
+}
+
+footer {
+    
+}
