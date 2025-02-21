@@ -1,10 +1,54 @@
+
+
+
 header {
-    background-color: aquamarine; /* cor de fundo do cabeçalho */
-    text-align: center; /*alinhamento do texto*/
-    color: blueviolet; /* cor da letra */
-    padding: 25px; /* tamanho/preenchimento do cabeçalho*/
+    background-color: aquamarine;
+    /* cor de fundo do cabeçalho */
+    text-align: center;
+    /*alinhamento do texto*/
+    padding: 25px;
+    /* tamanho/preenchimento do cabeçalho*/
 }
 
+header h1 {
+    color: brown;
+    /*SEMPRE COR DA LETRA*/
+    font-size: 30px;
+    /*SEMPRE PARA TAMANHO DE LETRAS*/
+}
+
+.joaquim {
+    padding: 150px;
+    background-color: grey;
+}
+
+.renato {
+    padding: 150px;
+    background-color: cadetblue;
+}
+
+.joao {
+    padding: 150px;
+    background-color: cornflowerblue;
+}
+
+
+
 footer {
-    
+    background-color: aquamarine;
+    /*cor de fundo do Rodapé*/
+    text-align: center;
+    /*Alinhamento do texto */
+    padding: 25px;
+    /*Tamanho da caixa*/
+}
+
+footer p {
+    color: blue; /*cor da letra*/
+    font-size: 30px; /*tamanho da letra*/
+}
+
+
+footer .primeiro-nome {
+    color: chocolate;
 }
