@@ -1,54 +1,80 @@
 
-
-
-header {
-    background-color: aquamarine;
+header { /*ESTILIZANDO O CABEÇALHO*/
+    background-color: #312c20d8;
     /* cor de fundo do cabeçalho */
-    text-align: center;
     /*alinhamento do texto*/
     padding: 25px;
     /* tamanho/preenchimento do cabeçalho*/
+    display: flex; /*Responsável por tornar os itens Flex e deixar lado a lado*/
+    justify-content: center; /*Organização dos conteúdos dentro do Cabeçalho*/
+    gap: 20px; /*Espaçamento entre os elementos (h1 e img)*/
+    align-items: center; /*Alinhamento dos itens*/
 }
 
-header h1 {
-    color: brown;
+
+header h1 { /*ESTÁ ESTILIZANDO O TÍTULO*/
+    color: white;
     /*SEMPRE COR DA LETRA*/
     font-size: 30px;
     /*SEMPRE PARA TAMANHO DE LETRAS*/
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+header img { /*ESTÁ ESTILIZANDO A IMAGEM*/
+    width: 70px; /*Largura da Logo*/
+   
+}
+
+
 
 .joaquim {
-    padding: 150px;
-    background-color: grey;
+    padding: 200px; /*preenchimento da sessão*/
+    background-color: #b3a176; /*cor de fundo*/
+    display: flex; /*deixando flex / lado a lado*/
+    justify-content: center; /*Justificando o conteúdo ao centro */
+    align-items: center; /*Alinhando os itens ao centro*/
+    gap: 30px; /*Espaço/respiro entre os itens*/
 }
+
+
+
+
 
 .renato {
-    padding: 150px;
-    background-color: cadetblue;
+    padding: 200px;
+    background-color: #b3a176;
+    text-align: center;
 }
 
-.joao {
-    padding: 150px;
-    background-color: cornflowerblue;
+.renato i {
+    font-size: 100px;
+    color: #200581;
 }
+
+
+.joao {
+    padding: 200px;
+    background-image: url(imagens/street-cafe-4472312_1280.jpg); /*Caminho da imagem*/
+    background-position: bottom; /*Posição da Imagem*/
+    background-size: cover; /*Preenchimento total da imagem*/
+}
+
 
 
 
 footer {
-    background-color: aquamarine;
+    background-color: #e2cb92;
     /*cor de fundo do Rodapé*/
     text-align: center;
     /*Alinhamento do texto */
-    padding: 25px;
+    padding: 10px;
     /*Tamanho da caixa*/
 }
 
 footer p {
-    color: blue; /*cor da letra*/
-    font-size: 30px; /*tamanho da letra*/
+    color: rgb(21, 21, 22); /*cor da letra*/
+    font-size: 20px; /*tamanho da letra*/
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-
-footer .primeiro-nome {
-    color: chocolate;
-}
