@@ -54,27 +54,32 @@ header img { /*ESTÁ ESTILIZANDO A IMAGEM*/
 
 .joao {
     padding: 200px;
-    background-image: url(imagens/street-cafe-4472312_1280.jpg); /*Caminho da imagem*/
-    background-position: bottom; /*Posição da Imagem*/
-    background-size: cover; /*Preenchimento total da imagem*/
+    background-image:url(imagens/street-cafe-4472312_1280.jpg); /*Responsável pela imagem de fundo*/
+    background-position: bottom; /*Posicionamento da Imagem*/
+    background-size: cover; /*Preechimento da área disponível da Imagem*/
+    background-repeat: no-repeat; /*Retirando a repetição da imagem no Background.*/
+    display: flex; /*tornando os itens flex*/
+    justify-content: center; /*Alinhando o botão ao centro*/
 }
 
-
+.joao button {
+    width: 150px; /*largura do botão*/
+    padding: 10px; /*Preenchimento do botão*/
+    background-color: rgba(98, 95, 95, 0.802); /*cor de fundo com opacidade*/
+    color: white; /*cor da letra do botão*/
+    border-radius: 5px; /*Arredondamento do botão*/
+    
+}
 
 
 footer {
-    background-color: #e2cb92;
-    /*cor de fundo do Rodapé*/
+    background-color: #200581;
+    padding: 30px;
+    color: white;
+    font-size: 20px;
     text-align: center;
-    /*Alinhamento do texto */
-    padding: 10px;
-    /*Tamanho da caixa*/
 }
-
-footer p {
-    color: rgb(21, 21, 22); /*cor da letra*/
-    font-size: 20px; /*tamanho da letra*/
-    margin-top: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+footer i {
+    font-size: 40px;
+    
 }
-
