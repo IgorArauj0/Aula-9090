@@ -55,9 +55,9 @@ header img { /*ESTÁ ESTILIZANDO A IMAGEM*/
 .joao {
     padding: 200px;
     background-image:url(imagens/street-cafe-4472312_1280.jpg); /*Responsável pela imagem de fundo*/
-    background-position: bottom; /*Posicionamento da Imagem*/
-    background-size: cover; /*Preechimento da área disponível da Imagem*/
-    background-repeat: no-repeat; /*Retirando a repetição da imagem no Background.*/
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     display: flex; /*tornando os itens flex*/
     justify-content: center; /*Alinhando o botão ao centro*/
 }
