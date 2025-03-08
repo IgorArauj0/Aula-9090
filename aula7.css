@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Estilizando o Header */
+header {
+    padding: 25px;
+    /*responsavel pelo preenchimento interno/tamanho*/
+    background-color: black;
+    /*Cor de fundo*/
+    display: flex;
+    /*tornando os itens Flex/lado a lado*/
+    justify-content: center;
+    /*Justificando o conteúdo ao centro*/
+    gap: 50px;
+    /*espaço entre os elementos*/
+    align-items: center;
+    /*responsável por alinhar verticalmente os itens*/
+}
+
+/* Estilizando o ícone */
+header i {
+    color: rgb(241, 206, 30);
+    /*Cor do ícone*/
+    font-size: 60px;
+    /*Tamanho do ícone*/
+}
+
+/* ESTILIZANDO O TÍTULO */
+header h1 {
+    color: rgb(241, 206, 30);
+    /*cor da letra*/
+    font-size: 36px;
+    /*Tamanho da letra*/
+    font-family: "Playfair Display", serif;
+}
+
+/* FIM DO CABEÇALHO */
+
+/* INÍCIO PRIMEIRA SESSÃO */
+
+.primeira-section {
+    padding: 160px;
+    /*Preenchimento/Tamanho*/
+    background-color: black;
+    /*cor de fundo*/
+    display: flex;
+    /*Tornando flex/lado a lado*/
+    justify-content: center;
+    /*Justificando o conteúdo ao centro*/
+    align-items: center;
+    /*alinhamento vertical dos itens*/
+    gap: 60px;
+    /*espaço entre os elementos*/
+}
+
+.primeira-section span {
+    font-size: 45px;
+    /*tamanho da letra*/
+    color: rgb(241, 206, 30);
+    /*cor da letra*/
+}
+
+.primeira-section img {
+    width: 400px;
+    /*largura da imagem*/
+    height: 500px;
+    /*Altura da imagem*/
+}
+
+.primeira-section p {
+    color: white;
+    /*Cor da letra*/
+    font-size: 30px;
+    /*tamanho da letra*/
+    font-family: "Playfair Display", serif;
+    /*tipo de font*/
+}
+
+/* FIM DA PRIMEIRA SESSÃO */
+
+
+/* INÍCIO SEGUNDA SESSÃO */
+
+.segunda-section {
+    background-color: black;
+    /*cor de fundo*/
+    padding: 160px;
+    /*preenchimento*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.segunda-section i {
+    font-size: 50px;
+    /*tamanho do ícone*/
+    color: rgb(241, 206, 30);
+    /*cor do ícone*/
+}
+
+.segunda-section p {
+    color: white;
+    /*cor da letra*/
+    font-size: 30px;
+    /*Tamanho da letra*/
+    font-family: "Playfair Display", serif;
+    /*tipo de font*/
+}
+
+/* Fim da segunda sessão */
+
+.terceira-section {
+    padding: 200px;
+    background-image: url(imagens/architecture-3128917_1280.jpg);
+    /*UP IMG*/
+    background-position: center top;
+    /*posição da imagem*/
+    background-size: cover;
+    /*preechimento da imagem*/
+    background-repeat: no-repeat;
+    /*desabilitando repetição imagem*/
+    background-attachment: fixed;
+    /*FIXAÇÃO DA IMAGEM*/
+
+    display: flex;
+    justify-content: center;
+}
+
+.terceira-section button {
+    padding: 10px;
+    width: 150px;
+    background-color: rgb(241, 206, 30);
+    color: black;
+}
