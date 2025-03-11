@@ -4,7 +4,7 @@
 header {
     padding: 25px;
     /*responsavel pelo preenchimento interno/tamanho*/
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     /*Cor de fundo*/
     display: flex;
     /*tornando os itens Flex/lado a lado*/
@@ -32,6 +32,23 @@ header h1 {
     /*Tamanho da letra*/
     font-family: "Playfair Display", serif;
 }
+
+.list-menu ul { /*Alteração na lista não ordenada (elemento pai)*/
+    display: flex; /*tornando as ( li ) flex/lado a lado*/
+    justify-content: center; /*Deixando elas centralizadas*/
+    gap: 20px; /*Espaço entre as ( li )*/
+}
+
+.list-menu ul li { /*Alteração da Lista (li) (elemento filho)*/
+    list-style: none; /*Removendo o estilo de lista aplicado por padrão*/
+}
+
+.list-menu ul li a {
+    text-decoration: none; /*remoção do sublinhado (Decoração de texto: Nenhuma)*/
+    color: rgb(241, 206, 30);
+}
+
+
 
 /* FIM DO CABEÇALHO */
 
@@ -132,4 +149,45 @@ header h1 {
     width: 150px;
     background-color: rgb(241, 206, 30);
     color: black;
+}
+
+/* Final da Terceira sessão */
+
+
+.sessao-04 {
+    padding: 150px; /*Preenchimento/Tamanho da Section*/
+    background-color: rgb(23, 22, 22); /*Cor de fundo*/
+    display: flex; /*Deixando as Div´s lado a lado*/
+    gap: 10px; /*Espaçamento entre as caixas*/
+    justify-content: space-evenly; /*Justificando os conteúdo*/
+}
+
+.sessao-04 div { /*Estilizando as DIV/CAIXAS (total 3)*/
+    width: 300px; /*Largura da caixa*/
+    height: 300px; /*Altura da caixa*/
+    background-color: blue; /*Cor de fundo da caixa*/
+    color: white; /*Cor da letra*/
+}
+
+
+
+
+
+
+
+footer {
+    padding: 25px;
+    background-color: black;
+    
+    text-align: center; /*momentâneo*/
+}
+
+footer p {
+    color: rgb(241, 206, 30); /*cor da letra*/
+    font-size: 25px; /*tamanho da letra*/
+}
+
+footer i {
+    color: rgb(241, 206, 30); /*cor do ícone*/
+    font-size: 20px; /*Tamnho do ícone*/
 }
