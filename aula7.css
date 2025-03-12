@@ -157,16 +157,39 @@ header h1 {
 .sessao-04 {
     padding: 150px; /*Preenchimento/Tamanho da Section*/
     background-color: rgb(23, 22, 22); /*Cor de fundo*/
-    display: flex; /*Deixando as Div´s lado a lado*/
-    gap: 10px; /*Espaçamento entre as caixas*/
-    justify-content: space-evenly; /*Justificando os conteúdo*/
+    display: flex; /*Aqui estamos deixando as caixas lado a lado*/
+    justify-content: space-evenly; /*Estamos justificando o posicionamento das caixas*/
+    gap: 15px; /*Brecha entre as caixas*/
 }
 
-.sessao-04 div { /*Estilizando as DIV/CAIXAS (total 3)*/
-    width: 300px; /*Largura da caixa*/
+.sessao-04 div { /*estamos padronizando todas as caixas/div´s*/
+    width: 300px; /*largura da caixa*/
     height: 300px; /*Altura da caixa*/
-    background-color: blue; /*Cor de fundo da caixa*/
+    background-color: rgba(128, 128, 128, 0.85); /*cor de fundo*/
+    text-align: center; /*Estou alinhando o texto ao centro*/
+    padding: 15px; /*margem interna da caixa*/
+}
+
+
+.div-02 { /*Aqui estamos alterando a segunda caixa/div*/
+    background-image: url(imagens/dog.jpg); /*Inserindo img*/
+    background-size: cover; /*Aplicando o preenchimento total*/
+    /* background-position: right bottom; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-03 img {
+    width: 100px;
+    height: 100px;
+}
+
+.div-03 p {
+    font-size: 17px; /*Tamanho da letra*/
     color: white; /*Cor da letra*/
+    font-weight: 600; /*PESO DA FONT*/
+    line-height: 20px; /*Distância entre as linhas*/
 }
 
 
