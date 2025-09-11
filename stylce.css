@@ -82,3 +82,30 @@ span {
     color: white;
     font-size: 30px;
 }
+
+
+.section-03 {
+    padding: 150px; /*preenchimento interno*/
+    background-image: url(imagens/architecture-3128917_1280.jpg); /*imagem de fundo*/
+    background-attachment: fixed; /*posicionamento fixo*/
+    background-position: center top; /*posicionamento da img*/
+    /*alinhamento do botão*/
+    display: flex; /*tornando a section flex, sendo possível fazer o alinhamento*/
+    justify-content: center; /*alinhamento horizontal*/
+    align-items: center; /*alinhamento vertical*/
+}
+
+.section-03 button {
+    background-color: yellow; /*cor de fundo do botão*/
+    color: black; /*cor da letra*/
+    width: 180px; /*largura do botão*/
+    padding: 10px; /*espaçamento interno*/
+    border: none; /*removendo borda*/
+    box-shadow: 5px 5px 10px white; /*sombra do botão*/
+}
+.section-03 button:hover{
+    background-color: rgba(255, 255, 0, 0.447); /*alternância da cor ao passar o mouse*/
+    transition: 0.8s; /*transição da ação do hover*/
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.386);
+    /*alternância da cor da sombra ao passar o mouse*/
+}
