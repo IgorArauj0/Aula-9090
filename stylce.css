@@ -1,0 +1,84 @@
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.div-icon i { /*ícones é estilizado como text*/
+    color: yellow;
+    font-size: 40px;
+}
+
+.div-title h1 {
+    font-size: 25px;
+    text-transform: uppercase; /*DEIXA O TEXTO EM CAIXA ALTA*/
+    color: yellow;
+}
+
+.div-list ul {
+display: flex;
+gap: 15px;
+}
+
+.div-list ul li {
+    list-style: none; /*remove "bolinhas" da lista*/
+}
+
+.div-list ul li a {
+    text-decoration: none; /*remove o sublinhado*/
+    color: yellow; /*cor da letra*/
+}
+
+.section-01 {
+    background-color: black; /*cor de fundo*/
+    display: flex; /*tornando o item flex/lado a lado*/
+    justify-content: space-evenly; /*alinhamento horizontal*/
+    align-items: center; /*alinhamento vertical*/
+    gap: 15px; /*espaço entre as div*/
+    padding: 100px; /*Preenchimento interno*/
+}
+
+.img-section-01 {
+    width: 300px; /*Largura da img*/
+    height: 350px; /*altura da img*/
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.363); /*sombra da caixa*/
+    border-radius: 40px; /*arredondamento da img*/
+}
+
+.section-01 p {
+    color: white; /*cor da letra*/
+    font-size: 30px; /*tamanho da letra*/
+    font-family:'arial'; /*Família de font*/
+    margin-left: 30px; /*espaçamento lateral esquerda*/
+    font-weight: 700; /*peso da fonte*/
+    text-align: center; /*Alinhamento do texto*/
+}
+
+span {
+    font-size: 40px;
+    color: yellow;
+    text-transform: uppercase;
+}
+
+.section-02 {
+    background-color: black; /*cor de fundo*/
+    padding: 100px; /*Espaçamento interno*/
+    
+    display: flex; /*os itens ficaram lado lado*/
+    flex-direction: column; /*modificando a direção das caixas*/
+    align-items: center; /*alinhamento vertical*/
+    justify-content: center; /*alinhamento horizontal*/
+    
+}
+
+.div-icons i {
+    color: yellow;
+    font-size: 45px;
+    margin-left: 20px;
+}
+
+.div-paragrafo p {
+    color: white;
+    font-size: 30px;
+}
