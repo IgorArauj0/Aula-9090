@@ -109,3 +109,77 @@ span {
     box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.386);
     /*alternância da cor da sombra ao passar o mouse*/
 }
+
+/* Aqui estamos estilizando a section-04 */
+.section-04 {
+    background-color: grey; /*cor de fundo da section*/
+    padding: 100px; /*preenchimento interno da section*/
+    display: flex; /*tornando a Section Flex/lado a lado*/
+    gap: 10px; /*espaçamento entre as caixas*/
+    justify-content: center; /*alinhamento horizontal*/
+    align-items: center; /*alinhamento vertical*/
+}
+
+/* aqui estamos estilizando as 3 caixas (div) */
+.div-section-04 {
+    width: 350px; /*largura das 3 caixas*/
+    height: 350px;/*altura das 3 caixas*/
+    background-color: rgb(95, 95, 130);/*cor de fundo para as caixas*/
+    text-align: center;/*alinhamento geral dos textos*/
+    padding: 15px;/*espaçamento interno das caixas*/
+}
+
+/* estilização da primeira caixa */
+.div-star h3{ /*estilizando o título*/
+    font-size: 25px; /*tamanho da letra do título*/
+    color: white;/*cor da letra*/
+    text-transform: uppercase;/*tornando o texto em caixa alta*/
+}
+.div-star p { /*estilização do parágrafo da primeira caixa*/
+    color: white; /*cor da letra*/
+    font-size: 20px; /*tamanho da letra*/
+}
+/* estilização das estrelas */
+.div-star i {
+    color: yellow;
+    font-size: 30px;
+}
+
+
+
+/* estilização da segunda caixa */
+.div-dog {
+    background-image: url(imagens/dog.jpg); /*imagem de fundo da caixa*/
+    background-repeat: no-repeat;/*removendo repetição da imagem*/
+    background-size: cover; /*preenchimento completo da img*/
+    background-position: center;/*posicionamento da imagem*/
+}
+/* estou estilizando a img da terceira div */
+.div-user img{
+    width: 100px; /*largura da img*/
+    height: 100px; /*altura da img*/
+}
+/* estilizando parágrafo da terceira div */
+.div-user p {
+    color: white; /*cor da letra*/
+    font-size: 20px; /*tamanho da letra*/
+}
+
+
+footer {
+    background-color: black; /*cor de fundo*/
+    padding: 50px; /*preenchimento interno*/
+    color: yellow;/*cor das letras*/
+    /* sempre alinhar os itens utilizando o display:flex e suas propriedades */
+    display: flex; /*utilizando para fazer alinhamento*/
+    align-items: center; /*alinhamento vertical*/
+    justify-content: center; /*alinhamento horizontal*/
+    text-align: center; /*alinhamento dos textos*/
+    font-size: 25px;/*aumentando o tamanho dos textos*/
+   
+}
+
+footer i {
+    font-size: 40px;
+    color: white;
+}
