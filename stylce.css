@@ -127,6 +127,13 @@ span {
     background-color: rgb(95, 95, 130);/*cor de fundo para as caixas*/
     text-align: center;/*alinhamento geral dos textos*/
     padding: 15px;/*espaçamento interno das caixas*/
+    box-shadow: 10px 10px 20px white;
+    
+}
+
+.div-section-04:hover{
+    box-shadow: 12px 12px 30px white;
+    transition: 0.8s;
 }
 
 /* estilização da primeira caixa */
@@ -183,3 +190,9 @@ footer i {
     font-size: 40px;
     color: white;
 }
+
+footer i:hover {
+    color: rgb(234, 255, 0);
+    transition: 0.8s;
+}
+
