@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Estilizando o Header */
+header {
+    padding: 25px;
+    /*responsavel pelo preenchimento interno/tamanho*/
+    background-color: rgb(0, 0, 0);
+    /*Cor de fundo*/
+    display: flex;
+    /*tornando os itens Flex/lado a lado*/
+    justify-content: space-evenly;
+    /*Justificando o conteúdo ao centro*/
+    align-items: center;
+    /*responsável por alinhar verticalmente os itens*/
+}
+
+/* Estilizando o ícone */
+header img {
+   width: 100px;
+}
+
+/* ESTILIZANDO O TÍTULO */
+header h1 {
+    color: rgb(132, 32, 220);
+    /*cor da letra*/
+    font-size: 36px;
+    /*Tamanho da letra*/
+    font-family: "Playfair Display", serif;
+}
+
+.list-menu ul { /*Alteração na lista não ordenada (elemento pai)*/
+    display: flex; /*tornando as ( li ) flex/lado a lado*/
+    justify-content: center; /*Deixando elas centralizadas*/
+    gap: 20px; /*Espaço entre as ( li )*/
+}
+
+.list-menu ul li { /*Alteração da Lista (li) (elemento filho)*/
+    list-style: none; /*Removendo o estilo de lista aplicado por padrão*/
+}
+
+.list-menu ul li a {
+    text-decoration: none; /*remoção do sublinhado (Decoração de texto: Nenhuma)*/
+    color: rgb(132, 32, 220);
+}
+
+
+/* FIM DO CABEÇALHO */
+
+/* SECTION 01 */
+.img-section-01 {
+    width: 260px; /*Largura da imagem*/
+    margin-left: 20px;
+}
+
+.section-01 {
+ display: flex; /*tornando as div lado a lado | Flexbox*/
+ align-items: center;/*alinhamento vertical*/
+ justify-content: space-evenly;/*alinhamento horizontal*/
+ flex-direction: row; /*Direção das caixas*/
+ background-color: black; /*cor de fundo*/
+ padding: 40px;/*preenchimento interno*/
+ gap: 60px;  /*espaço entre as div*/    
+}
+
+.div-02 p {
+    color: rgb(132, 32, 220); /*cor da letra*/
+    font-size: 32px; /*tamanho da font*/
+    margin-left: 30px; /*Margem da esquerda - espaçamento*/
+    text-align: center; /*alinhamento do texto*/
+}
+/* Texto em destaque da section-01 */
+span {
+    color: yellow; /*cor da letra do span*/
+    font-size: 40px; /*tamanho da letra span*/
+}
+/* FIM DA SECTION-01 */
+
+.fa-brands {
+    font-size: 60px;
+    color: blueviolet;
+}

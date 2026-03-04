@@ -17,7 +17,7 @@ header {
 }
 
 /* Estilizando o ícone */
-header i {
+header img {
     color: rgb(241, 206, 30);
     /*Cor do ícone*/
     font-size: 60px;
