@@ -75,7 +75,30 @@ span {
 }
 /* FIM DA SECTION-01 */
 
+
+
+/* SECTION 02 */
+/* ícones devem ser manipulados como textos (Font-size, color...) */
 .fa-brands {
     font-size: 60px;
     color: blueviolet;
+    
+}
+.section-02{
+    background-color: black; /*cor de fundo*/
+    padding: 50px; /*preenchimento interno*/
+    color: white; /*cor das letras (H2 e P)*/
+    display: flex; /*Tornando as Div lado a lado*/
+    align-items: center; /*alinhamento vertical*/
+    justify-content: center;/*alinhamento horizontal*/
+    flex-direction: column;/*direção das caixas*/
+    text-align: center;/*alinhando texto ao centro*/
+}
+
+.paragrafo-section-2 h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.paragrafo-section-2 p {
+    font-size: 25px;
 }
